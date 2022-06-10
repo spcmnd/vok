@@ -110,7 +110,18 @@ recyclops file ../hubot/.env
 
 After a test: `dwight:Queenofblad3s!23` is a set of credentials.
 
-`user.txt`: `a12dcdd01eb80810afdb46d937714d4f`
+`user.txt`: `8ef445c15fc077583aec9b7ba2aab2d3`
 
 ## Post-Exploitation
 
+Using `linpeas.sh`,  a CVE seems to be usable:
+```bash
+╔══════════╣ CVEs Check                                                                                                                                                                                                                  
+Vulnerable to CVE-2021-3560
+```
+
+Using this PoC: https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation/blob/main/poc.sh
+
+Created a user and spawned a root shell.
+
+`root.txt`: `d5a268920b8834ba615d44431e9b91fc`
