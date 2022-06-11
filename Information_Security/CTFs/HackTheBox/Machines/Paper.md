@@ -58,7 +58,7 @@ Server: `Apache/2.4.37 (centos) OpenSSL/1.1.1k mod_fcgid/2.3.9`.
 
 When adding `office.paper` to `/etc/hosts`:
 
-![](../../../../Attachments/Pasted%20image%2020220609143951.png)
+![](../../../Attachments/Pasted%20image%2020220609143951.png)
 
 Users found:
 - prisonmike
@@ -85,7 +85,7 @@ http://chat.office.paper/register/8qozr226AhkCHZdyY
 
 Adding `chat.office.paper` to `/etc/hosts` show this page:
 
-![](../../../../Attachments/Pasted%20image%2020220609150712.png)
+![](../../../Attachments/Pasted%20image%2020220609150712.png)
 
 Once logged in the chat, a bot is present, which can be DM'd:
 
